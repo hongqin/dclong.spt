@@ -1,0 +1,20 @@
+Package: dclong.spt
+Type: Package
+Title: Sequential Permutation Test
+Version: 1.1
+Date: 2012-02-06
+Author: Chuanlong Benjamin Du
+Maintainer: Chuanlong Benjamin Du <duchuanlong@gmail.com>
+Description: Permutation tests are commonly used. Usually it doesn't take much
+    time to do a permutation test, but it can be time-consuming if you have to
+    do many permution tests at the same time. This package allows you to do
+    sequential permutation tests which save you time. Currently only sequential
+    permutation test for no difference between two groups and sequential
+    permutation test for no correlation between a reponse variable and a bunch
+    of covariates are supported. Generally sequential permutation test (and
+    parallel technic) will be supported soon.
+Depends: R (>= 2.10)
+License: GPL (>=2)
+Collate: 'spt.corr.r' 'spt.mean.r' 'zzz.r' 'est-m0.r' 'fdr.r'
+        'rbunif.R' 'barley.r' 'leukemia.r' 'marker.r' 'plot.spt.r'
+Packaged: 2012-02-24 17:58:54 UTC; adu

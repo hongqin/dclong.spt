@@ -1,0 +1,8 @@
+export(fdr)
+export(m0.nettleton)
+export(m0.storey)
+export(plot.spt)
+export(rbunif)
+export(spt.corr)
+export(spt.mean)
+S3method(plot,spt)
